@@ -1,5 +1,10 @@
 {
-.appVersion = "1115";
+.appVersion = "1230";
+DisplayStrings = (
+"Ø",
+"/_corner.leftSerif",
+"/_corner.leftSerif"
+);
 classes = (
 {
 automatic = 1;
@@ -7,7 +12,7 @@ code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2018 by Mariya Pigoulevskaya. All rights reserved.";
+copyright = "Copyright 2018 The Solway Project Authors (https://github.com/mashavp/Solway)";
 customParameters = (
 {
 name = fsType;
@@ -26,7 +31,7 @@ value = (
 );
 }
 );
-date = "2018-02-20 12:10:13 +0000";
+date = "2019-09-05 23:53:34 +0000";
 designer = "Mariya V. Pigoulevskaya";
 designerURL = "https://mariyavp.com";
 familyName = Solway;
@@ -7864,13 +7869,12 @@ unicode = 00D2;
 {
 color = 1;
 glyphname = Oslash;
-lastChange = "2018-02-22 11:25:12 +0000";
+lastChange = "2019-09-05 23:43:32 +0000";
 layers = (
 {
 components = (
 {
 name = O;
-transform = "{1, 0, 0, 1, -1, 0}";
 }
 );
 layerId = "C836F59C-81CC-4411-94AE-B4087123016A";
@@ -7878,32 +7882,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"119 0 LINE SMOOTH",
-"131 0 OFFCURVE",
-"138 6 OFFCURVE",
-"147 17 CURVE SMOOTH",
-"681 669 LINE SMOOTH",
-"689 679 OFFCURVE",
-"690 686 OFFCURVE",
-"690 690 CURVE SMOOTH",
-"690 695 OFFCURVE",
-"688 700 OFFCURVE",
-"678 700 CURVE SMOOTH",
-"647 700 LINE SMOOTH",
-"635 700 OFFCURVE",
-"628 694 OFFCURVE",
-"619 683 CURVE SMOOTH",
-"85 31 LINE SMOOTH",
-"77 21 OFFCURVE",
-"76 14 OFFCURVE",
-"76 10 CURVE SMOOTH",
-"76 5 OFFCURVE",
-"78 0 OFFCURVE",
-"88 0 CURVE SMOOTH"
+"120 0 LINE SMOOTH",
+"132 0 OFFCURVE",
+"139 6 OFFCURVE",
+"148 17 CURVE SMOOTH",
+"682 669 LINE SMOOTH",
+"690 679 OFFCURVE",
+"691 686 OFFCURVE",
+"691 690 CURVE SMOOTH",
+"691 695 OFFCURVE",
+"689 700 OFFCURVE",
+"679 700 CURVE SMOOTH",
+"648 700 LINE SMOOTH",
+"636 700 OFFCURVE",
+"629 694 OFFCURVE",
+"620 683 CURVE SMOOTH",
+"86 31 LINE SMOOTH",
+"78 21 OFFCURVE",
+"77 14 OFFCURVE",
+"77 10 CURVE SMOOTH",
+"77 5 OFFCURVE",
+"79 0 OFFCURVE",
+"89 0 CURVE SMOOTH"
 );
 }
 );
-width = 766;
+width = 767;
 },
 {
 components = (
@@ -42901,12 +42905,6 @@ width = 600;
 );
 instances = (
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--composites --strong-stem-width=GD";
-}
-);
 interpolationWeight = 59;
 instanceInterpolations = {
 "C836F59C-81CC-4411-94AE-B4087123016A" = 1;
@@ -42915,12 +42913,6 @@ name = Light;
 weightClass = Light;
 },
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--composites --strong-stem-width=GD";
-}
-);
 interpolationWeight = 90;
 instanceInterpolations = {
 "120615CE-BBBA-4703-9D0A-81094A4EB7C9" = 0.28704;
@@ -42929,12 +42921,6 @@ instanceInterpolations = {
 name = Regular;
 },
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--composites --strong-stem-width=GD";
-}
-);
 interpolationWeight = 120;
 instanceInterpolations = {
 "120615CE-BBBA-4703-9D0A-81094A4EB7C9" = 0.56481;
@@ -42944,12 +42930,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--composites --strong-stem-width=GD";
-}
-);
 interpolationWeight = 140;
 instanceInterpolations = {
 "120615CE-BBBA-4703-9D0A-81094A4EB7C9" = 0.75;
@@ -42959,12 +42939,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-customParameters = (
-{
-name = "TTFAutohint options";
-value = "--composites --strong-stem-width=GD";
-}
-);
 interpolationWeight = 167;
 instanceInterpolations = {
 "120615CE-BBBA-4703-9D0A-81094A4EB7C9" = 1;
