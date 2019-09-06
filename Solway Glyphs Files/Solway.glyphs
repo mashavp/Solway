@@ -1089,7 +1089,7 @@ value = 740;
 },
 {
 name = typoDescender;
-value = -280;
+value = -260;
 },
 {
 name = typoLineGap;
@@ -1105,11 +1105,11 @@ value = -260;
 },
 {
 name = hheaLineGap;
-value = 1200;
+value = 0;
 },
 {
 name = winAscent;
-value = 0;
+value = 1200;
 },
 {
 name = winDescent;
