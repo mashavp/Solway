@@ -1003,6 +1003,40 @@ alignmentZones = (
 );
 ascender = 740;
 capHeight = 700;
+customParameters = (
+{
+name = typoAscender;
+value = 740;
+},
+{
+name = typoDescender;
+value = -260;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 740;
+},
+{
+name = hheaDescender;
+value = -260;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1200;
+},
+{
+name = winDescent;
+value = 400;
+}
+);
 descender = -230;
 guideLines = (
 {
@@ -1048,6 +1082,40 @@ alignmentZones = (
 );
 ascender = 740;
 capHeight = 700;
+customParameters = (
+{
+name = typoAscender;
+value = 740;
+},
+{
+name = typoDescender;
+value = -280;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 740;
+},
+{
+name = hheaDescender;
+value = -260;
+},
+{
+name = hheaLineGap;
+value = 1200;
+},
+{
+name = winAscent;
+value = 0;
+},
+{
+name = winDescent;
+value = 400;
+}
+);
 descender = -230;
 guideLines = (
 {
@@ -43621,6 +43689,8 @@ instanceInterpolations = {
 "120615CE-BBBA-4703-9D0A-81094A4EB7C9" = 0.75;
 "C836F59C-81CC-4411-94AE-B4087123016A" = 0.25;
 };
+isBold = 1;
+linkStyle = Regular;
 name = Bold;
 weightClass = Bold;
 },
