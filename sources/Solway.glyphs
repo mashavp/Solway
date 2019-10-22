@@ -1,14 +1,15 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-"Ø",
+"noHOAe\012HHWHOWOOHHWOH\012WAFTING VATING OVO\012QUICK ZEPHYRS\012VEX BOLD JIM  \012zephyrs nnynoyoo Popayan\012nxoeAHIFTJOhmrbpdqf\012nnynoyoonn\012ABCDEFGHIJKLMNOPQR\012STUVWXYZ\012abcdefghijklmnopqrs\012tuvonwonkxyz",
 "/_corner.leftSerif",
-"/_corner.leftSerif"
+"/_corner.leftSerif",
+ij
 );
 classes = (
 {
 automatic = 1;
-code = "A Aacute Acircumflex Adieresis Agrave Aring Atilde AE B C Ccedilla D Eth E Eacute Ecircumflex Edieresis Egrave F G H I Iacute Icircumflex Idieresis Igrave J K L M N Ntilde O Oacute Ocircumflex Odieresis Ograve Oslash Otilde OE P Thorn Q R S Germandbls T U Uacute Ucircumflex Udieresis Ugrave V W X Y Yacute Z";
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn OE Germandbls";
 name = Uppercase;
 }
 );
@@ -951,6 +952,10 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2019-09-05 23:53:34 +0000";
@@ -967,7 +972,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ccmp;\012feature sups;\012feature frac;\012feature ordn;\012feature case;\012";
+code = "feature sups;\012feature frac;\012feature ordn;\012feature case;\012";
 name = aalt;
 },
 {
@@ -977,7 +982,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012";
+code = "sub two by twosuperior;\012sub three by threesuperior;\012sub one by onesuperior;\012sub four by foursuperior;\012";
 name = sups;
 },
 {
@@ -23437,6 +23442,27 @@ color = 1;
 glyphname = i;
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"227 555 OFFCURVE",
+"271 599 OFFCURVE",
+"271 657 CURVE SMOOTH",
+"271 715 OFFCURVE",
+"227 759 OFFCURVE",
+"169 759 CURVE SMOOTH",
+"111 759 OFFCURVE",
+"67 715 OFFCURVE",
+"67 657 CURVE SMOOTH",
+"67 599 OFFCURVE",
+"111 555 OFFCURVE",
+"169 555 CURVE SMOOTH"
+);
+}
+);
+};
 hints = (
 {
 origin = "{0, 6}";
@@ -23473,18 +23499,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"227 555 OFFCURVE",
-"271 599 OFFCURVE",
-"271 657 CURVE SMOOTH",
-"271 715 OFFCURVE",
-"227 759 OFFCURVE",
-"169 759 CURVE SMOOTH",
-"111 759 OFFCURVE",
-"67 715 OFFCURVE",
-"67 657 CURVE SMOOTH",
-"67 599 OFFCURVE",
-"111 555 OFFCURVE",
-"169 555 CURVE SMOOTH"
+"227 570 OFFCURVE",
+"271 614 OFFCURVE",
+"271 672 CURVE SMOOTH",
+"271 730 OFFCURVE",
+"227 774 OFFCURVE",
+"169 774 CURVE SMOOTH",
+"111 774 OFFCURVE",
+"67 730 OFFCURVE",
+"67 672 CURVE SMOOTH",
+"67 614 OFFCURVE",
+"111 570 OFFCURVE",
+"169 570 CURVE SMOOTH"
 );
 }
 );
@@ -23643,18 +23669,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"210 555 OFFCURVE",
-"254 599 OFFCURVE",
-"254 657 CURVE SMOOTH",
-"254 715 OFFCURVE",
-"210 759 OFFCURVE",
-"152 759 CURVE SMOOTH",
-"94 759 OFFCURVE",
-"50 715 OFFCURVE",
-"50 657 CURVE SMOOTH",
-"50 599 OFFCURVE",
-"94 555 OFFCURVE",
-"152 555 CURVE SMOOTH"
+"210 570 OFFCURVE",
+"254 614 OFFCURVE",
+"254 672 CURVE SMOOTH",
+"254 730 OFFCURVE",
+"210 774 OFFCURVE",
+"152 774 CURVE SMOOTH",
+"94 774 OFFCURVE",
+"50 730 OFFCURVE",
+"50 672 CURVE SMOOTH",
+"50 614 OFFCURVE",
+"94 570 OFFCURVE",
+"152 570 CURVE SMOOTH"
 );
 }
 );
@@ -43659,6 +43685,19 @@ layerId = "C836F59C-81CC-4411-94AE-B4087123016A";
 width = 600;
 }
 );
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = "C836F59C-81CC-4411-94AE-B4087123016A";
+width = 600;
+},
+{
+layerId = "120615CE-BBBA-4703-9D0A-81094A4EB7C9";
+width = 600;
+}
+);
 }
 );
 instances = (
@@ -43699,9 +43738,10 @@ name = Bold;
 weightClass = Bold;
 },
 {
-interpolationWeight = 167;
+interpolationWeight = 160;
 instanceInterpolations = {
-"120615CE-BBBA-4703-9D0A-81094A4EB7C9" = 1;
+"120615CE-BBBA-4703-9D0A-81094A4EB7C9" = 0.93519;
+"C836F59C-81CC-4411-94AE-B4087123016A" = 0.06481;
 };
 name = ExtraBold;
 weightClass = ExtraBold;
@@ -44603,7 +44643,7 @@ idieresis = 50;
 "@MMK_R_s" = -20;
 };
 "@MMK_L_V" = {
-"@MMK_R_A" = -100;
+"@MMK_R_A" = -107;
 "@MMK_R_Germandbls" = -50;
 "@MMK_R_J" = -100;
 "@MMK_R_O" = -30;
