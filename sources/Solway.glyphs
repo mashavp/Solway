@@ -1,7 +1,7 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-"noHOAe\012HHWHOWOOHHWOH\012WAFTING VATING OVO\012QUICK ZEPHYRS\012VEX BOLD JIM  \012zephyrs nnynoyoo Popayan\012nxoeAHIFTJOhmrbpdqf\012nnynoyoonn\012ABCDEFGHIJKLMNOPQR\012STUVWXYZ\012abcdefghijklmnopqrs\012tuvonwonkxyz",
+"noHOAe\012HHWHOWOOHHWOH\012WAFTING VATING OVO\012QUICK ZEPHYRS\012VEX BOLD JIM  \012zephyrs nnynoyoo Popayan\012nxoeAHIFTJOhmrbpdqf\012nnynoyoonn\012ABCDEFGHIJKLMNOPQR\012STUVWXYZ\012abcdefghjklqmnopqrs\012tuvonwo$123kxyz  ",
 "/_corner.leftSerif",
 "/_corner.leftSerif",
 ij
@@ -1019,7 +1019,7 @@ value = 740;
 },
 {
 name = typoDescender;
-value = -260;
+value = -230;
 },
 {
 name = typoLineGap;
@@ -1031,7 +1031,7 @@ value = 740;
 },
 {
 name = hheaDescender;
-value = -260;
+value = -230;
 },
 {
 name = hheaLineGap;
@@ -1039,7 +1039,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1200;
+value = 1000;
 },
 {
 name = winDescent;
@@ -1098,7 +1098,7 @@ value = 740;
 },
 {
 name = typoDescender;
-value = -260;
+value = -230;
 },
 {
 name = typoLineGap;
@@ -1110,7 +1110,7 @@ value = 740;
 },
 {
 name = hheaDescender;
-value = -260;
+value = -230;
 },
 {
 name = hheaLineGap;
@@ -1118,7 +1118,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1200;
+value = 1000;
 },
 {
 name = winDescent;
