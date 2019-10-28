@@ -952,6 +952,10 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2019-09-05 23:53:34 +0000";
