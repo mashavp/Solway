@@ -952,6 +952,10 @@ value = 1;
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2019-09-05 23:53:34 +0000";
@@ -1011,11 +1015,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 740;
+value = 950;
 },
 {
 name = typoDescender;
-value = -230;
+value = -250;
 },
 {
 name = typoLineGap;
@@ -1023,11 +1027,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 740;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -230;
+value = -250;
 },
 {
 name = hheaLineGap;
@@ -1090,11 +1094,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 740;
+value = 950;
 },
 {
 name = typoDescender;
-value = -230;
+value = -250;
 },
 {
 name = typoLineGap;
@@ -1102,11 +1106,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 740;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -230;
+value = -250;
 },
 {
 name = hheaLineGap;
